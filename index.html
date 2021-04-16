@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Meteorite Analysis</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta name = "viewport" content = 'width = device-width, initial-scale=1.0' -->
+  <!-- <meta name = "viewport" content = 'width = device-width, initial-scale=1.0'>  -->
   
 
   <!-- Bring in our bootstrap stylesheet -->
@@ -64,11 +64,45 @@
       <!-- </form> -->
     </div>
   </nav>
+  <!-- Headline -->
 
-
-
-
-
+    
+  <!-- Row 2 -->
+  <div class="row content">
+    <div class="col-sm-12 col-md-6">
+      <h2 class = "text-left">Summary</h2>
+      <hr class = "my-4">
+     <div class = "square"> 
+        <img src="Meteor/latmass.png" class = "img-thumbnail" ALIGN = "LEFT" HSPACE = "10" VSPACE= "10" alt="Latitude">
+      </div>
+      <p style="font-size: 20px"> 
+      </br>
+      The purpose of this project was to analyze the patterns in observed meteorite impacts around the world. To accomplish this analysis, I pulled data from a meteorite observation .csv file available on Kaggle which had a dataset that included meteorite size, geolocation, year observed, and whether or not the the meteorite was found at the surface. </br>
+    </br>
+      After assembling the dataset, I used Matplotlib to plot various aspects of the meteorite data in order to see if there was a trend in areas of impact, size of meteorites, or clusters of observations over time. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations observed.</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <h3 class = "text-left">Visualizations</h3>
+        <hr class = "my-4">
+       <a href = "latitude.html">
+          <img src="Meteor/latmass.png" class = "img-thumbnail" alt="Latitude">
+         </a>
+        <a href = "yearobserved.html" >
+          <img src="Meteor/yearobserved.PNG" class = "img-thumbnail" alt="Year Observed">
+        </a>
+        <a href = "found.html" >
+          <img src="Meteor/foundobserved.PNG" class = "img-thumbnail" alt="Found vs Observed">
+        </a>
+        <a href = "longitude.html" >
+          <img src="Meteor/lonmass.png" class = "img-thumbnail" alt="Longitude">
+        </a>
+      </div>
+        
+      
+  </div>  
+  </div>
+  </div>
+  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
